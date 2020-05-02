@@ -5,9 +5,33 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100%;
+	height: 100vh;
 
 }
+
+.container{
+	max-width: 1700px;
+	margin: 0px auto;	
+}
+
+@media (max-widh:1200px){
+	.container{
+		max-width: 970px;
+	}
+}
+
+@media (max-widh:992px){
+	.container{
+		max-width: 750px;
+	}
+}
+
+@media (max-widh:767px){
+	.container{
+		max-width: none;
+	}
+}
+
 
 .kotya{
   width: 500px;
